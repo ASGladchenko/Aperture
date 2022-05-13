@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+h1{
+    margin: 0;
+}
+header{
+    background-color: #181818;
+    padding: 24px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.d-flex{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    margin: 6px 0;
+    display: inline-block;
+}
+header  nav ul li {
+    margin-left: 32px;
+ }
+ header nav ul{
+     list-style: none;
+ }
+ header nav ul a {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-size: 15px;
+     line-height: 20px;
+     color: #FFFFFF;
+ }
+header  nav ul li:first-of-type
+{
+    margin-right: 24px;
+}
+header  nav ul li:first-of-type a{
+    font-size: 13px;
+}
+
+header  nav ul li:last-of-type a{
+    padding: 9px 20px;
+    display: inline-block;
+    font-size: 16px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    color:#000000;
+}
+.main_banner{
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+    height: 89.8vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.main_banner h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.main_banner h1 {
+    color: #FFFFFF;font-family: 'Poppins';
+    font-style: normal;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+}
+.main_banner p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    max-width: 580px;
+    margin: auto;
+}
+.main_banner .container{
+    margin: inherit;
+}
