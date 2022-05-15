@@ -57,10 +57,12 @@ header  nav ul li:last-of-type a{
 .main_banner{
     background-image: url("../images/ocean.jpg");
     background-size: cover;
-    height: 89.8vh;
+    height: 82.8vh;
     display: flex;
     align-items: end;
     justify-content: center;
+    padding-bottom: 71px;
+    position: relative;
 
 }
 .main_banner h3{
@@ -91,4 +93,166 @@ header  nav ul li:last-of-type a{
 }
 .main_banner .container{
     margin: inherit;
+}
+.main_banner ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+}
+.main_banner li{
+    font-family: "Poppins";
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    margin-left: 16px;
+}
+.list_item li{
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    margin-left: 16px;
+}
+.list_item li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.list_item li:nth-child(2):before{
+    background-image: url("../images/photo.svg");
+}
+.list_item li:nth-child(3):before{
+    background-image: url("../images/cirkle.svg");
+    margin-right: 7px;
+    width: 32px;
+}
+.list_item li:last-of-type:before {
+    background-image: url("../images/iso.svg");
+    margin-right: 5px;
+    width: 10px;
+}
+
+.what_we_do{
+    background-color: black;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.what_we_do p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+.text-center{
+    text-align: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.what_we_do .item{
+    max-width: 575px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do .item img{
+    display: block;
+    width: 100%;
+}
+.what_we_do .container{
+    max-width: 1168px;
+}
+.what_we_do .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.description h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 30px;
+}
+.description a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.description a:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+    transition:0.8s;
+}
+.description a:hover{
+    background: #000;
+    color: #FFFFFF;
+}
+.description a:hover:before{
+    background: #FFFFFF;
+    transition: 0.8s;
+}
+.fuji {
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+    padding-right: 62px;
+}
+.fuji .container{
+    color: #FFFFFF;
+    max-width: 287px;
+    margin: inherit;
+
 }
