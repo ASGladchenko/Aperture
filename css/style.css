@@ -5,56 +5,66 @@
     border: none;
     list-style: none;
 }
-h1{
+
+h1 {
     margin: 0;
 }
-header{
+
+header {
     background-color: #181818;
     padding: 24px 0;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.d-flex{
+
+.d-flex {
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
-.logo{
+
+.logo {
     margin: 6px 0;
     display: inline-block;
 }
-header  nav ul li {
+
+header nav ul li {
     margin-left: 32px;
- }
- header nav ul{
-     list-style: none;
- }
- header nav ul a {
-     font-family: 'Poppins';
-     font-style: normal;
-     font-size: 15px;
-     line-height: 20px;
-     color: #FFFFFF;
- }
-header  nav ul li:first-of-type
-{
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+header nav ul li:first-of-type {
     margin-right: 24px;
 }
-header  nav ul li:first-of-type a{
+
+header nav ul li:first-of-type a {
     font-size: 13px;
 }
 
-header  nav ul li:last-of-type a{
+header nav ul li:last-of-type a {
     padding: 9px 20px;
     display: inline-block;
     font-size: 16px;
     background: #FFFFFF;
     border-radius: 14px;
-    color:#000000;
+    color: #000000;
 }
-.main_banner{
+
+.main_banner {
     background-image: url("../images/ocean.jpg");
     background-size: cover;
     height: 82.8vh;
@@ -65,7 +75,8 @@ header  nav ul li:last-of-type a{
     position: relative;
 
 }
-.main_banner h3{
+
+.main_banner h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-size: 14px;
@@ -75,14 +86,17 @@ header  nav ul li:last-of-type a{
     text-transform: uppercase;
     color: #C0C0C0;
 }
+
 .main_banner h1 {
-    color: #FFFFFF;font-family: 'Poppins';
+    color: #FFFFFF;
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 54px;
     line-height: 59px;
     text-align: center;
 }
-.main_banner p{
+
+.main_banner p {
     font-family: 'Poppins';
     font-size: 14px;
     line-height: 20px;
@@ -91,10 +105,12 @@ header  nav ul li:last-of-type a{
     max-width: 580px;
     margin: auto;
 }
-.main_banner .container{
+
+.main_banner .container {
     margin: inherit;
 }
-.main_banner ul{
+
+.main_banner ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -103,21 +119,24 @@ header  nav ul li:last-of-type a{
     bottom: 40px;
 
 }
-.main_banner li{
+
+.main_banner li {
     font-family: "Poppins";
     font-size: 12px;
     line-height: 12px;
     color: white;
     margin-left: 16px;
 }
-.list_item li{
+
+.list_item li {
     font-family: 'Poppins';
     font-size: 12px;
     line-height: 12px;
     color: white;
     margin-left: 16px;
 }
-.list_item li:before{
+
+.list_item li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/clock.svg");
@@ -127,65 +146,79 @@ header  nav ul li:last-of-type a{
     position: relative;
     top: 6px;
 }
-.list_item li:nth-child(2):before{
+
+.list_item li:nth-child(2):before {
     background-image: url("../images/photo.svg");
 }
-.list_item li:nth-child(3):before{
+
+.list_item li:nth-child(3):before {
     background-image: url("../images/cirkle.svg");
     margin-right: 7px;
     width: 32px;
 }
+
 .list_item li:last-of-type:before {
     background-image: url("../images/iso.svg");
     margin-right: 5px;
     width: 10px;
 }
 
-.what_we_do{
+.what_we_do {
     background-color: black;
     padding-top: 112px;
     padding-bottom: 100px;
 }
-.what_we_do h2{
+
+.what_we_do h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
-.what_we_do p{
+
+.what_we_do p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 30px;
     color: #C0C0C0;
+    margin-bottom: 42px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.what_we_do .item{
+
+.what_we_do .item {
     max-width: 575px;
     margin-bottom: 16px;
     position: relative;
 }
-.what_we_do .item img{
+
+.what_we_do .item img {
     display: block;
     width: 100%;
 }
-.what_we_do .container{
+
+.what_we_do .container {
     max-width: 1168px;
 }
-.what_we_do .description{
+
+.what_we_do .description {
     position: absolute;
     bottom: 30px;
     left: 30px;
 }
-.description h4{
+
+.description h4 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -197,7 +230,7 @@ header  nav ul li:last-of-type a{
     text-transform: uppercase;
 }
 
-.description p{
+.description p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -206,7 +239,8 @@ header  nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 30px;
 }
-.description a{
+
+.description a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -221,7 +255,8 @@ header  nav ul li:last-of-type a{
     text-decoration: none;
     transition: 0.8s;
 }
-.description a:before{
+
+.description a:before {
     content: "";
     display: inline-block;
     width: 32px;
@@ -229,30 +264,141 @@ header  nav ul li:last-of-type a{
     background-color: black;
     border-radius: 14px;
     margin-right: 6px;
-    transition:0.8s;
+    transition: 0.8s;
 }
-.description a:hover{
+
+.description a:hover {
     background: #000;
     color: #FFFFFF;
 }
-.description a:hover:before{
+
+.description a:hover:before {
     background: #FFFFFF;
     transition: 0.8s;
 }
+
+.for_h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+.for_p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
 .fuji {
-    background-image: url("../images/ocean.jpg");
+    background-image: url("../images/fuji.jpg");
     background-size: cover;
     height: 75vh;
+    position: relative;
+}
+
+.fuji .container {
+    max-width: 1315px;
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.fuji .container div:first-of-type{
+    max-width: 298px;
+
+
+}
+
+.fuji ul {
+    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: end;
-    padding-bottom: 71px;
-    position: relative;
-    padding-right: 62px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
 }
-.fuji .container{
-    color: #FFFFFF;
-    max-width: 287px;
-    margin: inherit;
+.monstera_leafs{
+    background-image: url("../images/monstera_leafs.jpg");
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+.monstera_leafs .container {
+    max-width: 1290px;
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.monstera_leafs .container div:first-of-type{
+    max-width: 273px;
+}
+.monstera_leafs ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.past_clients{
+    background-color: black;
+    padding: 120px 0 140px 0;
+}
 
+.past_clients h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.past_clients .container div:first-of-type{
+    padding: 0 62px;
+}
+.himalayas{
+    background-image: url("../images/star_fall_himalayas.jpg");
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.himalayas .container {
+    max-width: 1258px;
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.himalayas .container div:first-of-type{
+    max-width: 254px;
+}
+.himalayas ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
 }
