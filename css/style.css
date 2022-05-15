@@ -381,7 +381,7 @@ header nav ul li:last-of-type a {
 .himalayas{
     background-image: url("../images/star_fall_himalayas.jpg");
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
     position: relative;
 }
 .himalayas .container {
