@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -45,6 +46,12 @@ header nav ul a {
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
+    transition: 0.5s;
+}
+header nav ul a:hover{
+    color: #C0C0C0;
+    font-weight: bolder;
+    transition: 0.5s;
 }
 
 header nav ul li:first-of-type {
@@ -62,8 +69,21 @@ header nav ul li:last-of-type a {
     background: #FFFFFF;
     border-radius: 14px;
     color: #000000;
+    transition: 0.5s;
 }
-
+header nav ul li:last-of-type a:hover{
+    padding: 9px 20px;
+    display: inline-block;
+    font-size: 16px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    color: #000000;
+    transition: 0.5s;
+}
+header nav ul li:last-of-type a:hover{
+    font-weight: bolder;
+    transition: 0.5s;
+}
 .main_banner {
     background-image: url("../images/ocean.jpg");
     background-size: cover;
@@ -253,7 +273,7 @@ header nav ul li:last-of-type a {
     padding: 5px 10px 5px 4px;
     display: inline-flex;
     text-decoration: none;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 .description a:before {
@@ -264,20 +284,21 @@ header nav ul li:last-of-type a {
     background-color: black;
     border-radius: 14px;
     margin-right: 6px;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 .description a:hover {
     background: #000;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
 .description a:hover:before {
     background: #FFFFFF;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
-.for_h3{
+.for_h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -299,6 +320,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 
 }
+
 .fuji {
     background-image: url("../images/fuji.jpg");
     background-size: cover;
@@ -314,7 +336,7 @@ header nav ul li:last-of-type a {
     align-items: center;
 }
 
-.fuji .container div:first-of-type{
+.fuji .container div:first-of-type {
     max-width: 298px;
 
 
@@ -328,12 +350,14 @@ header nav ul li:last-of-type a {
     right: 40px;
     bottom: 40px;
 }
-.monstera_leafs{
+
+.monstera_leafs {
     background-image: url("../images/monstera_leafs.jpg");
     background-size: cover;
     height: 75vh;
     position: relative;
 }
+
 .monstera_leafs .container {
     max-width: 1290px;
     display: flex;
@@ -341,9 +365,11 @@ header nav ul li:last-of-type a {
     justify-content: end;
     align-items: center;
 }
-.monstera_leafs .container div:first-of-type{
+
+.monstera_leafs .container div:first-of-type {
     max-width: 273px;
 }
+
 .monstera_leafs ul {
     list-style: none;
     display: flex;
@@ -352,12 +378,13 @@ header nav ul li:last-of-type a {
     right: 40px;
     bottom: 40px;
 }
-.past_clients{
+
+.past_clients {
     background-color: black;
     padding: 120px 0 140px 0;
 }
 
-.past_clients h2{
+.past_clients h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -366,7 +393,8 @@ header nav ul li:last-of-type a {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.past_clients p{
+
+.past_clients p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -375,15 +403,18 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.past_clients .container div:first-of-type{
+
+.past_clients .container div:first-of-type {
     padding: 0 62px;
 }
-.himalayas{
+
+.himalayas {
     background-image: url("../images/star_fall_himalayas.jpg");
     background-size: cover;
     height: 85vh;
     position: relative;
 }
+
 .himalayas .container {
     max-width: 1258px;
     display: flex;
@@ -391,9 +422,11 @@ header nav ul li:last-of-type a {
     justify-content: end;
     align-items: center;
 }
-.himalayas .container div:first-of-type{
+
+.himalayas .container div:first-of-type {
     max-width: 254px;
 }
+
 .himalayas ul {
     list-style: none;
     display: flex;
@@ -402,3 +435,91 @@ header nav ul li:last-of-type a {
     right: 40px;
     bottom: 40px;
 }
+
+.need_help {
+    background-color: black;
+    padding: 113px 0 108px;
+
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.need_help h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    max-width: 571px;
+    margin-bottom: 15px;
+}
+
+.need_help p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.need_help a {
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    display: inline-flex;
+    transition: .5s;
+}
+
+.need_help a::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    margin-right: 6px;
+    border-radius: 13px;
+    transition: .5s;
+}
+.need_help a:hover{
+    background-color: black;
+    color: #FFFFFF;
+    transition: .5s;
+}
+.need_help a:hover::before{
+    content: '';
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+/*footer{*/
+/*    background-color: black;*/
+/*    padding: 100px 0;*/
+/*    color: white;*/
+/*}*/
+/*footer .container{*/
+/*    max-width: 1168px;*/
+/*}*/
+/*footer .d-flex {*/
+/*    align-items: normal;*/
+/*}*/
+/*footer .d-flex ul:first-of-type{*/
+/*    margin-right: 94px;*/
+/*}*/
+/*footer .d-flex ul li{*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*footer .d-flex ul li:last-of-type{*/
+/*    margin-bottom: 0;*/
+/*}*/
