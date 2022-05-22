@@ -88,7 +88,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 header nav ul li:last-of-type a:hover {
-    color: #e39b47;;
+    color: #e39b47;
     transition: 0.3s;
 }
 
@@ -305,7 +305,16 @@ header nav ul li:last-of-type a:hover {
     background: #FFFFFF;
     transition: 0.5s;
 }
+.description a:active {
+    background-color: #FFFFFF;
+    color: #e39b47;
+    transition: 0.5s;
+}
 
+.description a:active:before {
+    background: #e39b47;
+    transition: 0.5s;
+}
 .for_h3 {
     font-family: 'Poppins';
     font-style: normal;
@@ -513,7 +522,16 @@ header nav ul li:last-of-type a:hover {
     background-color: #FFFFFF;
     transition: 0.5s;
 }
+.need_help a:active {
+    background-color: white;
+    color: #e39b47;;
+    transition: .5s;
+}
 
+.need_help a:active::before {
+    background: #e39b47;
+    transition: 0.5s;
+}
 footer {
     background-color: black;
     padding: 100px 0;
