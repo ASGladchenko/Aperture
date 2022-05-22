@@ -577,7 +577,7 @@ footer .d-flex {
     transition: 0.3s;
 }
 
-.footer_menu_ul li:first-of-type a, .footer_menu_ul2 li:first-of-type a {
+.footer_menu_ul li:first-of-type, .footer_menu_ul2 li:first-of-type{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -667,5 +667,13 @@ footer .d-flex {
 }
 .social_media a{
     margin-left: 20px;
+}
+.footer_last_box p a{
+        color: #FFFFFF;
+    transition: 0.3s;
+}
+.footer_last_box p a:hover{
+    color: #e39b47;
+    transition: 0.3s;
 }
 
