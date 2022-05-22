@@ -344,7 +344,7 @@ header nav ul li:last-of-type a:hover {
     align-items: center;
 }
 
-.fuji .container div:first-of-type {
+.fuji_box_size{
     max-width: 298px;
 
 
@@ -374,7 +374,7 @@ header nav ul li:last-of-type a:hover {
     align-items: center;
 }
 
-.monstera_leafs .container div:first-of-type {
+.monstera_box_size {
     max-width: 273px;
 }
 
@@ -431,7 +431,7 @@ header nav ul li:last-of-type a:hover {
     align-items: center;
 }
 
-.himalayas .container div:first-of-type {
+.himalayas_box_size {
     max-width: 254px;
 }
 
