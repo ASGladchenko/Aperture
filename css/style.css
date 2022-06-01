@@ -30,6 +30,10 @@ header {
     justify-content: space-between;
     display: flex;
 }
+.owl-carousel{
+    padding: 0;
+
+}
 
 .logo {
     margin: 6px 0;
@@ -45,7 +49,7 @@ header nav ul {
 }
 
 header nav ul a {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 15px;
     line-height: 20px;
@@ -105,7 +109,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .main_banner h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
@@ -117,7 +121,7 @@ header nav ul li:last-of-type a:hover {
 
 .main_banner h1 {
     color: #FFFFFF;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 54px;
     line-height: 59px;
@@ -125,7 +129,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .main_banner p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -138,7 +142,7 @@ header nav ul li:last-of-type a:hover {
     margin: inherit;
 }
 
-.main_banner ul {
+.list_item{
     list-style: none;
     display: flex;
     align-items: center;
@@ -149,7 +153,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .main_banner li {
-    font-family: "Poppins";
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     line-height: 12px;
     color: white;
@@ -157,7 +161,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .list_item li {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     line-height: 12px;
     color: white;
@@ -198,7 +202,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .what_we_do h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -208,7 +212,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .what_we_do p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -247,7 +251,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .description h4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -259,7 +263,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .description p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -268,8 +272,8 @@ header nav ul li:last-of-type a:hover {
     margin-bottom: 30px;
 }
 
-.description a {
-    font-family: 'Poppins';
+.main_button {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -305,6 +309,7 @@ header nav ul li:last-of-type a:hover {
     background: #FFFFFF;
     transition: 0.5s;
 }
+
 .description a:active {
     background-color: #FFFFFF;
     color: #e39b47;
@@ -315,8 +320,9 @@ header nav ul li:last-of-type a:hover {
     background: #e39b47;
     transition: 0.5s;
 }
+
 .for_h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -329,7 +335,7 @@ header nav ul li:last-of-type a:hover {
 
 
 .for_p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -353,7 +359,7 @@ header nav ul li:last-of-type a:hover {
     align-items: center;
 }
 
-.fuji_box_size{
+.fuji_box_size {
     max-width: 298px;
 
 
@@ -366,6 +372,90 @@ header nav ul li:last-of-type a:hover {
     position: absolute;
     right: 40px;
     bottom: 40px;
+}
+
+.tools_we_use {
+    height: 75vh;
+    background-color: black;
+    justify-content: end;
+    position: relative;
+}
+
+.tools_box_1 {
+    max-width: 514px;
+    margin-right: 60px;
+
+}
+
+.tools_box_1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+
+.tools_box_1 h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.tools_box_1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+}
+
+.tools_box_2 {
+    background-image: url('../images/tools_we_use.jpg');
+    background-size: cover;
+    height: 100%;
+    width:50%;
+}
+
+.tools_we_use a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+    transition: 0.5s;
+}
+
+.tools_we_use a:hover {
+    background: #000;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.tools_we_use a:hover:before {
+    background: #FFFFFF;
+    transition: 0.5s;
+}
+
+.tools_we_use a:active {
+    background-color: #FFFFFF;
+    color: #e39b47;
+    transition: 0.5s;
+}
+.tools_we_use a:active:before {
+    background: #e39b47;
+    transition: 0.5s;
 }
 
 .monstera_leafs {
@@ -402,7 +492,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .past_clients h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -412,7 +502,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .past_clients p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -420,11 +510,33 @@ header nav ul li:last-of-type a:hover {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-
-.past_clients .container div:first-of-type {
-    padding: 0 62px;
+.for_owl_inside img{
+    width: 100%;
+    display: block;
 }
+.for_owl_inside{
+    max-width: 128px;
+}
+.owl-dots .owl-dot span{
+    background-color: #FFFFFF;
+    display: block;
+    width: 10px;
+    height: 10px ;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.7;
 
+}
+.owl-dots .owl-dot.active span{
+    transform: scale(2);
+    opacity: 1;
+
+}
+.owl-dots{
+    position: absolute;
+    right: 550px;
+    bottom: -20px;
+}
 .himalayas {
     background-image: url("../images/star_fall_himalayas.jpg");
     background-size: cover;
@@ -464,7 +576,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .need_help h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -475,7 +587,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 .need_help p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -489,7 +601,7 @@ header nav ul li:last-of-type a:hover {
     background-color: #FFFFFF;
     border-radius: 14px;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -522,6 +634,7 @@ header nav ul li:last-of-type a:hover {
     background-color: #FFFFFF;
     transition: 0.5s;
 }
+
 .need_help a:active {
     background-color: white;
     color: #e39b47;;
@@ -532,6 +645,7 @@ header nav ul li:last-of-type a:hover {
     background: #e39b47;
     transition: 0.5s;
 }
+
 footer {
     background-color: black;
     padding: 100px 0;
@@ -550,13 +664,13 @@ footer .d-flex {
     padding: 100px 0 36px;
 }
 
-.footer_box_logo img{
+.footer_box_logo img {
     margin-bottom: 20px;
     display: block;
 }
 
 .footer_box_logo p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -581,7 +695,7 @@ footer .d-flex {
 }
 
 .footer_menu_ul a, .footer_menu_ul2 a {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -595,8 +709,8 @@ footer .d-flex {
     transition: 0.3s;
 }
 
-.footer_menu_ul li:first-of-type, .footer_menu_ul2 li:first-of-type{
-    font-family: 'Poppins';
+.footer_menu_ul li:first-of-type, .footer_menu_ul2 li:first-of-type {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -617,8 +731,9 @@ footer .d-flex {
     border-top: 2px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
 }
-.subscribe_box h6{
-    font-family: 'Poppins';
+
+.subscribe_box h6 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -628,22 +743,25 @@ footer .d-flex {
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.subscribe_box{
+
+.subscribe_box {
     max-width: 280px;
 }
 
-.subscribe_box p{
-    font-family: 'Poppins';
+.subscribe_box p {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
 }
-.subscribe form{
+
+.subscribe form {
     flex-basis: 458px;
 }
-.search_subscribe{
+
+.search_subscribe {
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
@@ -652,14 +770,15 @@ footer .d-flex {
 
 .subscribe_input {
     width: 100%;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    background-color:#F9FAFB;
+    background-color: #F9FAFB;
     margin-right: 6px;
 }
+
 .search_button {
     background: #000000;
     border-radius: 11px;
@@ -667,30 +786,35 @@ footer .d-flex {
     height: 30px;
     transition: 0.5s;
 }
-.search_button:hover{
+
+.search_button:hover {
     background-color: #16389f;
     transition: 0.3s;
 }
-.subscribe form button:active{
+
+.subscribe form button:active {
     border: 2px solid #000000;
     background-color: darkgoldenrod;
-    transition: 0.3s;
 }
-.footer_last_box{
-    padding: 56px 0 100px ;
+
+.footer_last_box {
+    padding: 56px 0 100px;
 }
 
 .footer_last_box ul li {
     margin-left: 20px;
 }
-.social_media a{
+
+.social_media a {
     margin-left: 20px;
 }
-.footer_last_box p a{
-        color: #FFFFFF;
+
+.footer_last_box p a {
+    color: #FFFFFF;
     transition: 0.3s;
 }
-.footer_last_box p a:hover{
+
+.footer_last_box p a:hover {
     color: #e39b47;
     transition: 0.3s;
 }
