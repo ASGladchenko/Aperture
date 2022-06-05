@@ -231,7 +231,6 @@ header nav ul li:last-of-type a:hover {
 
 .what_we_do .item {
     max-width: 575px;
-    margin-bottom: 16px;
     position: relative;
 }
 
@@ -343,7 +342,22 @@ header nav ul li:last-of-type a:hover {
     color: #C0C0C0;
 
 }
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon,.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    display: none;
+}
+.ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-header{
+    display: inline-block;
 
+}
 .fuji {
     background-image: url("../images/fuji.jpg");
     background-size: cover;

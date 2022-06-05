@@ -6,11 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 <header>
@@ -57,42 +58,48 @@
     <div class="container">
         <h2 class="text-center">What we do.</h2>
         <p class="text-center">The areas that we're specialized in.</p>
-        <div class="d-flex wrap ">
-            <div class="item">
-                <div class="description">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="main_button" href="#">Read more</a>
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div class="d-flex">
+                <div class="item">
+                    <div class="description">
+                        <p>Product Photography</p>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+                            Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="main_button" href="#">Read more</a>
+                    </div>
+                    <img src="images/1.jpg" alt="img">
                 </div>
-                <img src="images/1.jpg" alt="img">
+                <div class="item">
+                    <div class="description">
+                        <p>Product Photography</p>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+                            Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="main_button" href="#">Read more</a>
+                    </div>
+                    <img src="images/2.jpg" alt="img">
+                </div>
             </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="main_button" href="#">Read more</a>
+            <h3>Section 2</h3>
+            <div class="d-flex"style="position: relative">
+                <div class="item">
+                    <div class="description">
+                        <p>Product Photography</p>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+                            Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="main_button" href="#">Read more</a>
+                    </div>
+                    <img src="images/3.jpg" alt="img">
                 </div>
-                <img src="images/2.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="main_button" href="#">Read more</a>
+                <div class="item">
+                    <div class="description">
+                        <p>Product Photography</p>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+                            Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="main_button" href="#">Read more</a>
+                    </div>
+                    <img src="images/4.jpg" alt="img">
                 </div>
-                <img src="images/3.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="description">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="main_button" href="#">Read more</a>
-                </div>
-                <img src="images/4.jpg" alt="img">
             </div>
         </div>
     </div>
@@ -157,8 +164,8 @@
             Trusted by your favourite companies
         </p>
 
-        <div class="owl-carousel center">
-            <div class="for_owl_inside"><a  href="#"><img src="images/hill_hayes.svg" alt="logo_hill_hayes"></a></div>
+        <div class="owl-carousel">
+            <div class="for_owl_inside"><a href="#"><img src="images/hill_hayes.svg" alt="logo_hill_hayes"></a></div>
             <div class="for_owl_inside"><a href="#"><img src="images/riksgransen.svg" alt="logo_riksgransen"></a></div>
             <div class="for_owl_inside"><a href="#"><img src="images/studio_cai.svg" alt="logo_studio_cai"></a></div>
             <div class="for_owl_inside"><a href="#"><img src="images/chill.svg" alt="logo_chill_industries"></a></div>
@@ -256,5 +263,6 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </body>
 </html>
