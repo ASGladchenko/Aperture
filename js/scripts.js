@@ -5,6 +5,10 @@ $(document).ready(function(){
         margin:0,
         nav:true,
         navText: [ '', ' ' ],
+        lazyLoad: true,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplaySpeed: 3000,
 
         responsive:{
             0:{
@@ -16,4 +20,11 @@ $(document).ready(function(){
             }
         }
     });
+
+        $( function() {
+        $( "#accordion" ).accordion(
+
+        );
+    } );
+
 });
