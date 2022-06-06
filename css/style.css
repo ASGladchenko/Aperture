@@ -30,7 +30,8 @@ header {
     justify-content: space-between;
     display: flex;
 }
-.owl-carousel{
+
+.owl-carousel {
     padding: 0;
 
 }
@@ -142,7 +143,7 @@ header nav ul li:last-of-type a:hover {
     margin: inherit;
 }
 
-.list_item{
+.list_item {
     list-style: none;
     display: flex;
     align-items: center;
@@ -218,7 +219,7 @@ header nav ul li:last-of-type a:hover {
     font-size: 23px;
     line-height: 30px;
     color: #C0C0C0;
-    margin-bottom: 42px;
+    margin-bottom: 62px;
 }
 
 .text-center {
@@ -342,22 +343,55 @@ header nav ul li:last-of-type a:hover {
     color: #C0C0C0;
 
 }
-.ui-accordion .ui-accordion-content{
+.ui-widget{
+    position: relative;
+}
+.ui-accordion .ui-accordion-content {
     padding: 0;
     background-color: transparent;
     border: none;
 }
+
 .ui-state-active .ui-icon,
-.ui-button:active .ui-icon,.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+.ui-button:active .ui-icon, .ui-state-active .ui-icon, .ui-button:active .ui-icon {
     display: none;
 }
-.ui-icon{
+
+.ui-icon {
     display: none;
 }
-.ui-accordion .ui-accordion-header{
-    display: inline-block;
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    left: 25%;
+    top: -7%;
+    padding: 0;
+    font-size: 0;
 
 }
+
+.ui-state-default{
+    background-color: white;
+    border: 2px solid black;
+}
+.ui-accordion .ui-accordion-header:last-of-type{
+    left: 75%;
+    top: -7%;
+
+}
+.ui-accordion .ui-accordion-header:hover{
+    border-color: white;
+}
+.ui-state-active{
+    border-color: white;
+    background-color: black;
+}
+
 .fuji {
     background-image: url("../images/fuji.jpg");
     background-size: cover;
@@ -437,7 +471,7 @@ header nav ul li:last-of-type a:hover {
     background-image: url('../images/tools_we_use.jpg');
     background-size: cover;
     height: 100%;
-    width:50%;
+    width: 50%;
 }
 
 .tools_we_use a:before {
@@ -467,6 +501,7 @@ header nav ul li:last-of-type a:hover {
     color: #e39b47;
     transition: 0.5s;
 }
+
 .tools_we_use a:active:before {
     background: #e39b47;
     transition: 0.5s;
@@ -524,33 +559,39 @@ header nav ul li:last-of-type a:hover {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.for_owl_inside img{
+
+.for_owl_inside img {
     width: 100%;
     display: block;
 }
-.for_owl_inside{
+
+.for_owl_inside {
     max-width: 128px;
 }
-.owl-dots .owl-dot span{
+
+.owl-dots .owl-dot span {
     background-color: #FFFFFF;
     display: block;
     width: 10px;
-    height: 10px ;
+    height: 10px;
     border-radius: 50%;
     margin: 0 8px;
     opacity: 0.7;
 
 }
-.owl-dots .owl-dot.active span{
+
+.owl-dots .owl-dot.active span {
     transform: scale(2);
     opacity: 1;
 
 }
-.owl-dots{
+
+.owl-dots {
     position: absolute;
     right: 550px;
     bottom: -20px;
 }
+
 .himalayas {
     background-image: url("../images/star_fall_himalayas.jpg");
     background-size: cover;
