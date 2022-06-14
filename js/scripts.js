@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 });
 jQuery(document).ready(function($){
-    //toggle 3d navigation
+
     $('.cd-3d-nav-trigger').on('click', function(){
         toggle3dBlock(!$('.cd-header').hasClass('nav-is-visible'));
     });
